@@ -48,7 +48,7 @@ def Vgg():
 	model.add(Activation('softmax'))
 	
 	from keras.models import model_from_json
-	model.load_weights('C:/Users/MEGAMODZ/Downloads/vgg_face_weights.h5')
+	model.load_weights('vgg_face_weights.h5')
 	
 	vgg_face_descriptor = Model(inputs=model.layers[0].input, outputs=model.layers[-2].output)
 	model.summary()
