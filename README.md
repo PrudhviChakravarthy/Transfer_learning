@@ -19,6 +19,7 @@ VGG16 is a convolutional neural network model proposed by K. Simonyan and A. Zis
 - opencv
 - pretrained moedl (vgg_face_weights.h5) - 550MB
 - cascade classifier( haarcascade_frontalface_default.xml)
+- images with name in test_samples folder
 
 
 ### Testing
