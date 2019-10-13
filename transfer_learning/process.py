@@ -10,7 +10,7 @@ import loss
 from model import Vgg
 
 color = (67,67,67)
-face_cascade = cv2.CascadeClassifier('C:\ProgramData\Anaconda3\Lib\site-packages\cv2\data/haarcascade_frontalface_default.xml')
+face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 def processimg(image_path):
     img = load_img(image_path, target_size=(224, 224))
     img = img_to_array(img)
