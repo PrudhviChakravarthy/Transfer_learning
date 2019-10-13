@@ -32,7 +32,6 @@ placed in loss file
 ![](https://i.ibb.co/Ny3scWs/snipping2.png)
 - VGG trained aroud 141 million instances
 
-![](https://i1.wp.com/sefiks.com/wp-content/uploads/2018/08/angelina-jolie-true-positive-v2.png?ssl=1)
 
 
 ### Loss Fuction
@@ -48,7 +47,24 @@ def cosine(X, Y):
 
 - similarity set to 0.4 between both images to get better for identifiaction
 
-### Sucessful 
+### Testing with multiple images
+
+- finding multiple charecters in single image and findig accuracy
+ ![](https://i.ibb.co/2NxtXBG/Avengers.jpg)
+ 
+ - Using sample images in test_images
+ ![](https://i.ibb.co/6ZSDcGw/Capture1.png)
+ 
+ - REULTS
+ 
+ ![](https://i.ibb.co/4KsT3V2/Capture3.png)
+ 
+ - It finding the faces which are alliened in specfic order and 
+ - it makes mistakes like finding elon musk as ironman 
+ - Not mentioning even there faces are slightly variable the original
+ 
+ 
+
 
 
 
