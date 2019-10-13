@@ -48,6 +48,8 @@ def cosine(X, Y):
 
 - similarity set to 0.4 between both images to get better for identifiaction
 
+### Sucessful 
+
 
 
 
