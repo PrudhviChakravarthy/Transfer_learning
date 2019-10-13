@@ -39,11 +39,11 @@ def VerifyFace(img1, folder):
 		euclidean_distance = loss.EuclideanDistance(img1_representation, img2_representation)
  
 		if(cosine_similarity < epsilon):
-			print(img1 + " " + "verified... they are same person" + " " + file)
+			print(img1 + " " + "MATCH FOUND" + " " + file)
 		else: 
-  			print(img1 + " " + "unverified! they are not same person!" + " " + file )
+  			print(img1 + " " + "NO MATCH FOUND" + " " + file )
 
-VerifyFace("Test_samples/2.jpg", pictures)
+VerifyFace("Test_samples/Avengers.jpg", pictures)
 
 ####### Video Testing #################
 
