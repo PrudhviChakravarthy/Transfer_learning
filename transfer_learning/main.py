@@ -43,7 +43,7 @@ def VerifyFace(img1, folder):
 		else: 
   			print(img1 + " " + "unverified! they are not same person!" + " " + file )
 
-VerifyFace("Test_samples/Scarlett.jpg", pictures)
+VerifyFace("Test_samples/2.jpg", pictures)
 
 ####### Video Testing #################
 
